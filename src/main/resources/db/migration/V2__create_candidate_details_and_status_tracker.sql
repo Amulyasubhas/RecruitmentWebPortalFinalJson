@@ -1,0 +1,20 @@
+CREATE TABLE candidate_details_and_status_tracker (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    date DATE,
+    candidate_name VARCHAR(255),
+    skill VARCHAR(255),
+    contact_number VARCHAR(50),
+    email_id VARCHAR(255),
+    experience DOUBLE,
+    relevant_exp DOUBLE,
+    ctc DOUBLE,
+    ectc DOUBLE,
+    notice_period VARCHAR(50),
+    current_location VARCHAR(100),
+    preferred_location VARCHAR(100),
+    vendor VARCHAR(100),
+    recruiter VARCHAR(100),
+    source VARCHAR(100),
+    status VARCHAR(100),
+    comment TEXT
+);
